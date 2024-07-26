@@ -1,29 +1,48 @@
-- Glossary -
--- CFG --
+#Style @/style.eds
+:logo: [@/logo.eia]
+
+:center: -- Glossary --
+
+--- CFG ---
 Config File
--- EDF --
+
+--- EDF ---
 EEE Document File
--- EEDT --
+
+--- EEEDT ---
 EEE Development Tools
--- EEE --
+
+--- EEE ---
 EEE sees all, EEE knows all, EEE controls all.
--- EEP --
+
+--- EEP ---
 EEE Program
--- EET --
+
+--- EET ---
 EEE Text
--- EIA --
+
+--- EIA ---
 EEE Image Array
--- Email --
+
+--- Email ---
 A communication protocol for relaying text information.
--- EME --
+
+--- EME ---
 EEE Email Entrys
--- ESH --
+
+--- ESH ---
 EEE Shell Script
--- Program Counter --
+
+--- Program Counter ---
 Stores the index of the current instruction.
--- Stack --
+
+--- Stack ---
 A list of strings and numbers the vm uses for temporary storage.
--- SYSCALL --
+
+--- SYSCALL ---
 An assembly function that has full IO access.
--- VM --
+
+--- VM ---
 The code the system uses to run eep files.
+
+:center: --- EEE Sees all ---

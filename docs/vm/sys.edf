@@ -1,4 +1,7 @@
-- SYS op codes -
+#Style @/style.eds
+:logo: [@/logo.eia]
+
+:center: -- SYS op codes --
 -- 0x010300 Print --
 Prints the top of the stack
 -- 0x010301 Quit --
@@ -38,3 +41,5 @@ Stops execution until the next frame.
 Generates an error with message on the top of the stack and stops execution.
 -- 0x010313 File Size --
 Pushes the size of the file on the top of the stack.
+
+:center: --- EEE Sees all ---

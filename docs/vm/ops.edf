@@ -1,6 +1,7 @@
 #Style @/style.eds
+:logo: [@/logo.eia]
 
-- VM Op-Codes -
+:center: -- VM Op-Codes --
 -- 0x00 NOP --
 Does nothing
 -- 0x01 SYS --
