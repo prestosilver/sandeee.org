@@ -1,0 +1,9 @@
+#Style @/style.eds
+
+:logo: [@/logo.eia]
+
+:center: -- Games --
+
+{@/test.eep}
+
+:center: --- EEE Sees all ---
