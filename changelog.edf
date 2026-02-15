@@ -8,23 +8,15 @@
 -- Upcoming --
 |! Fix some log messages not appearing
 |! Fix crash on invalid operation print
-|* Demo builds are now debug for better error reporting
-|! Fix appid things
-|* A little moving
 |! Relint and fix more typos
 |! Update steamworks to use generated vdfs
 |+ Add test cache of steam login
 |! Update demo timer and wording
-|! Update demo builds
 |* RecoverEEE can now have multiple recovery targets
-|* Refactor GitHub Actions workflow for Zig tests
-|* Refactor GitHub Actions workflow for Zig tests
 |+ Add new windows steam dll
 |! Update Linux steam library
 |! Update changelog generation
-|! Fix name
 |+ add steam api .so
-|* Switch to proper glfw
 |* Rework all mouse input to be consistent.
 |* Bar logo now scales to bar size
 |* rework web browser to error with unsupported content types
