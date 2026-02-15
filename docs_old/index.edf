@@ -1,0 +1,30 @@
+#Style @/style.eds
+:logo: [@/logo.eia]
+
+:center: -- Docs --
+
+:hs: ASM
+
+:biglink: > General: @/docs/asm/general.edf
+
+:hs: EON
+
+:biglink: > General: @/docs/eon/general.edf
+:biglink: > Operations: @/docs/eon/ops.edf
+:biglink: > Libraries: @/docs/eon/libs.edf
+
+:hs: Fake Files
+
+:biglink: > General: @/docs/fake/general.edf
+
+:hs: VM
+
+:biglink: > General: @/docs/vm/general.edf
+:biglink: > Operations: @/docs/vm/ops.edf
+:biglink: > Syscalls: @/docs/vm/sys.edf
+
+:hs: Misc
+
+:biglink: > glossary: @/docs/glossary.edf
+
+:center: --- EEE Sees all ---
