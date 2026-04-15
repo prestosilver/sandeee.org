@@ -130,3 +130,17 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+.linkring{
+	display:flex;
+	 flex-flow: row wrap;
+	 justify-content: flex-start;
+	 align-content: center;
+}
+
+.linkringitem{
+	margin:5px;
+	padding:0;
+	width:100px;
+	height:auto;
+}
