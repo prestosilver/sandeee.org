@@ -25,25 +25,3 @@ Pushes the argument with the index on the top of the stack.
 Pushes the time in ns since opening the game to the stack.
 -- 0x01030A Check Function --
 Pushes 1 if the function name on the top of the stack exists otherwise pushes 0.
--- 0x01030C Register Function --
-Creates a function with the name on the top of the stack and the code under it.
--- 0x01030D Clear Function --
-Removes the function with the name on the top of the stack.
--- 0x01030E Resize Heap --
-Sets the size of the heap to the size on the top of the stack.
--- 0x01030F Read Heap --
-Reads from the heap starting at the number under the top of the stack ending after the number of bytes on the top of the stack.
--- 0x010310 Write Heap --
-Puts the string on the top of the stack in the heap starting at the number under the top of the stack.
--- 0x010311 Yield --
-Stops execution until the next frame.
--- 0x010312 Error --
-Generates an error with message on the top of the stack and stops execution.
--- 0x010313 File Size --
-Pushes the size of the file on the top of the stack.
--- 0x010314 RSP --
-Sets the current RSP value
--- 0x010315 Spawn --
-Spawns a process.
-
-:center: --- EEE Sees all ---

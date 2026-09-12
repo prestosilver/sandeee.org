@@ -134,37 +134,3 @@ Header Libraries can be included through the #include keyword. Header libraries 
 :h3: 4.2 ELL Libraries
 
 ELL Libraries can be loaded through the libload.eon header library.
-
-:code-edge:
-:code:    | #include "/libs/incl/libload.eon"
-:code:    |
-:code:    | fn main() {
-:code:    |     setupLibLoad();
-:code:    |     loadLib("/libs/texture.ell");
-:code:    |     loadLib("/libs/window.ell");
-:code:    |
-:code:    |     return 0;
-:code:    | }
-:code-edge:
-
--- 5 Advanced Features --
-
-EON functions can be called with too many parameters. These parameters will be ignored by the function, this will result in an error unless you use the arguments with asm.
-
-Say you have the function:
-
-:code-edge:
-:code:    | fn close() {
-:code:    |     // closes a file
-:code:    |     asm "sys 7";
-:code:    |     asm "push 0";
-:code:    |     asm "ret";
-:code:    | }
-:code:    |
-:code:    | fn main() {
-:code:    |     close(fileHandle);
-:bad-code:|     close();
-:code:    | }
-:code-edge:
-
-:center: --- EEE Sees all ---
